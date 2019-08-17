@@ -50,50 +50,10 @@ namespace Estimator.App.Models
             return false;
         }
 
-        //public static bool Save(List<RawMaterial> List)
-        //{
-
-        //    try
-        //    {
-        //        using (StreamWriter streamWriter = new StreamWriter(RawMaterialsPath))
-        //        {
-        //            streamWriter.Write(SerializeWorks.Serialize(List));
-        //        }
-
-        //        return true;
-        //    }
-        //    catch (Exception aa)
-        //    {
-        //        Console.WriteLine(aa.Message);
-        //    }
-        //    return false;
-        //}
-
-        //public static List<RawMaterial> Get()
-        //{
-
-        //    try
-        //    {
-        //        string raw;
-        //        using (StreamReader streamReader = new StreamReader(RawMaterialsPath))
-        //        {
-        //            raw = streamReader.ReadToEnd();
-        //        }
-
-        //        List<RawMaterial> List = SerializeWorks.Deserialize<List<RawMaterial>>(raw);
-
-        //        return List;
-        //    }
-        //    catch (Exception aa)
-        //    {
-        //        Console.WriteLine(aa.Message);
-        //    }
-        //    return null;
-        //}
 
         public override string ToString()
         {
-            return Name + " : " + UnitPrice.ToString("N2");
+            return Name + " \t\t: " + UnitPrice.ToString("N2");
         }
     }
 }

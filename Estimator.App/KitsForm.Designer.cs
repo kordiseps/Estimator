@@ -36,10 +36,10 @@
             // 
             // btEdit
             // 
-            this.btEdit.Location = new System.Drawing.Point(454, 202);
+            this.btEdit.Location = new System.Drawing.Point(316, 144);
             this.btEdit.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
             this.btEdit.Name = "btEdit";
-            this.btEdit.Size = new System.Drawing.Size(180, 73);
+            this.btEdit.Size = new System.Drawing.Size(120, 50);
             this.btEdit.TabIndex = 3;
             this.btEdit.Text = "Düzenle";
             this.btEdit.UseVisualStyleBackColor = true;
@@ -47,10 +47,10 @@
             // btRemove
             // 
             this.btRemove.ForeColor = System.Drawing.Color.OrangeRed;
-            this.btRemove.Location = new System.Drawing.Point(454, 117);
+            this.btRemove.Location = new System.Drawing.Point(316, 82);
             this.btRemove.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
             this.btRemove.Name = "btRemove";
-            this.btRemove.Size = new System.Drawing.Size(180, 73);
+            this.btRemove.Size = new System.Drawing.Size(120, 50);
             this.btRemove.TabIndex = 4;
             this.btRemove.Text = "Sil";
             this.btRemove.UseVisualStyleBackColor = true;
@@ -59,10 +59,10 @@
             // btAdd
             // 
             this.btAdd.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btAdd.Location = new System.Drawing.Point(454, 19);
+            this.btAdd.Location = new System.Drawing.Point(316, 19);
             this.btAdd.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
             this.btAdd.Name = "btAdd";
-            this.btAdd.Size = new System.Drawing.Size(180, 73);
+            this.btAdd.Size = new System.Drawing.Size(120, 50);
             this.btAdd.TabIndex = 5;
             this.btAdd.Text = "Ekle";
             this.btAdd.UseVisualStyleBackColor = true;
@@ -75,20 +75,23 @@
             this.listKits.Location = new System.Drawing.Point(21, 19);
             this.listKits.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
             this.listKits.Name = "listKits";
-            this.listKits.Size = new System.Drawing.Size(416, 251);
+            this.listKits.Size = new System.Drawing.Size(279, 175);
             this.listKits.TabIndex = 2;
             // 
             // KitsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(644, 287);
+            this.ClientSize = new System.Drawing.Size(445, 201);
             this.Controls.Add(this.btEdit);
             this.Controls.Add(this.btRemove);
             this.Controls.Add(this.btAdd);
             this.Controls.Add(this.listKits);
             this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "KitsForm";
             this.Text = "KitsForm";
             this.ResumeLayout(false);

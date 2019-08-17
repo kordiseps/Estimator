@@ -37,7 +37,7 @@
             this.btMarkAsMade = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.HeaderMenu = new System.Windows.Forms.MenuStrip();
-            this.menuFile = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuData = new System.Windows.Forms.ToolStripMenuItem();
             this.ImportMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ExportMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuConst = new System.Windows.Forms.ToolStripMenuItem();
@@ -131,7 +131,7 @@
             // HeaderMenu
             // 
             this.HeaderMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuFile,
+            this.menuData,
             this.menuConst});
             this.HeaderMenu.Location = new System.Drawing.Point(0, 0);
             this.HeaderMenu.Name = "HeaderMenu";
@@ -139,25 +139,25 @@
             this.HeaderMenu.TabIndex = 3;
             this.HeaderMenu.Text = "menuStrip1";
             // 
-            // menuFile
+            // menuData
             // 
-            this.menuFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuData.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ImportMenuItem,
             this.ExportMenuItem});
-            this.menuFile.Name = "menuFile";
-            this.menuFile.Size = new System.Drawing.Size(51, 20);
-            this.menuFile.Text = "Dosya";
+            this.menuData.Name = "menuData";
+            this.menuData.Size = new System.Drawing.Size(86, 20);
+            this.menuData.Text = "Tüm Bilgileri";
             // 
             // ImportMenuItem
             // 
             this.ImportMenuItem.Name = "ImportMenuItem";
-            this.ImportMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.ImportMenuItem.Size = new System.Drawing.Size(180, 22);
             this.ImportMenuItem.Text = "Dosyadan İçe Aktar";
             // 
             // ExportMenuItem
             // 
             this.ExportMenuItem.Name = "ExportMenuItem";
-            this.ExportMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.ExportMenuItem.Size = new System.Drawing.Size(180, 22);
             this.ExportMenuItem.Text = "Dosyaya Dışa aktar";
             // 
             // menuConst
@@ -172,14 +172,14 @@
             // RawMaterialMenuItem
             // 
             this.RawMaterialMenuItem.Name = "RawMaterialMenuItem";
-            this.RawMaterialMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.RawMaterialMenuItem.Size = new System.Drawing.Size(175, 22);
             this.RawMaterialMenuItem.Text = "Ham Madde Listesi";
             this.RawMaterialMenuItem.Click += new System.EventHandler(this.RawMaterialMenuItem_Click);
             // 
             // KitMenuItem
             // 
             this.KitMenuItem.Name = "KitMenuItem";
-            this.KitMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.KitMenuItem.Size = new System.Drawing.Size(175, 22);
             this.KitMenuItem.Text = "Aparat Listesi";
             this.KitMenuItem.Click += new System.EventHandler(this.KitMenuItem_Click);
             // 
@@ -221,7 +221,7 @@
         private System.Windows.Forms.Button btMarkAsMade;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.MenuStrip HeaderMenu;
-        private System.Windows.Forms.ToolStripMenuItem menuFile;
+        private System.Windows.Forms.ToolStripMenuItem menuData;
         private System.Windows.Forms.ToolStripMenuItem ImportMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ExportMenuItem;
         private System.Windows.Forms.ToolStripMenuItem menuConst;

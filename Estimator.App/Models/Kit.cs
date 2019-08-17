@@ -50,11 +50,9 @@ namespace Estimator.App.Models
             return false;
         }
 
-      
-
         public override string ToString()
         {
-            return Name + " : " + UnitPrice.ToString("N2");
+            return Name + " \t\t: " + UnitPrice.ToString("N2");
         }
     }
 }
